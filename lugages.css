@@ -1,0 +1,42 @@
+.box-container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff
+}
+.header-box{
+    margin-top: -20vw;
+}
+.box{
+    flex: 1 1 1;
+    background-color: #fff;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    flex-direction: column;
+}
+.box .image{
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+.box .image img{
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+
+}
+.price{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
